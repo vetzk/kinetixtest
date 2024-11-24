@@ -74,3 +74,29 @@ Example : `npm run seqeulize --workspace=api -- --db:migrate`
 4. **Nested Folder Structure:**
    - Create a logical and organized folder structure based on the project's architecture.
    - For larger projects, consider organizing files by features/modules (Feature-Based Structure) or layer-based (Layered Structure).
+  
+### Responsive Design Consistency
+1. Start with a Mobile-First Design Approach
+   - Design for the smallest screen first and then after that enhance for larger devices
+     
+2. Use Responsive Grid System
+   - Use CSS Frameworks like TailwindCSS for a flexible and consistent layout
+   - Define breakpoints for different screen sizes:
+        - Small (sm): 640px
+        - Medium (md): 768px
+        - Large (lg): 1024px
+        - Extra Large (xl): 1280px and above
+
+3. Flexible Layouts and Proportions
+   - Use relative units like %, vh/wh instead of px
+     
+4. Prioritize Content Hierarchy
+   - Use media queries to rearrange content based on screen size
+     
+5. Consistent Spacing and Typography
+
+6. Use Scalable Assets
+   - Optimize images with responsive formats
+
+7. Navigation Adaptation
+   - Hamburger menus for smaller screens
