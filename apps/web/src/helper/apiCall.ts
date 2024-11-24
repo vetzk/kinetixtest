@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiCall = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: "https://kinetix-chi.vercel.app/",
 });
 
 export default apiCall;
